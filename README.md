@@ -5,6 +5,12 @@ a symfony app online library
 
 before installing this repo make sure you have composer , symfony , mysql installed 
 
+you can install composer using the following command :
+        ` sudo apt install composer `
+
+
+
+
 <ol> 
     <li> ` sudo apt install php-mysql `</li>
     <li> ` sudo apt install curl `</li>
