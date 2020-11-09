@@ -52,8 +52,9 @@ Grant access to database:
     
     
 
-<h1> edit your .env (username , password , database_name) to match the two sql line above </h1>
+<h1> edit your .env (username , password , database_name)  </h1>
 
+        `DATABASE_URL=mysql://user:password@127.0.0.1:3306/_db_?serverVersion=5.7`
 
 and you can run the server by typing :
     
