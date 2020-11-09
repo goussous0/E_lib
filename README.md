@@ -20,13 +20,16 @@ next you need to  create a new user in mysql :
     `CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'user_password';`
 
 create database :
+
     ` CREATE DATABASE _db_;`
  
 use database :
+
     ` USE _db_;`
  
  
 create table:
+
     ` CREATE TABLE book(`
     `   ->id INT AUTO_INCREMENT PRIMARY KEY,`
     `   ->name VARCHAR(255) NOT NULL,`
@@ -35,7 +38,8 @@ create table:
     
 
 
-Grant access to database 
+Grant access to database:
+
     `GRANT ALL PRIVILEGES ON _db_.* TO 'database_user'@'localhost';`
     
  
@@ -45,4 +49,6 @@ Grant access to database
 edit your .env username , password , database to match the two sql line above
 
 
-and you can run the server by typing `symfony server:start`
+and you can run the server by typing :
+    
+    `symfony server:start`
