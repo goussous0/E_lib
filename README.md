@@ -6,11 +6,11 @@ a symfony app online library
 before installing this repo make sure you have composer , symfony , mysql installed 
 
 <ol> 
-    <li> ``` sudo apt install php-mysql ```</li>
-    <li> ``` sudo apt install curl ```</li>
-    <li> ``` sudo apt install xml-php```</li>
-    <li> ``` sudo apt install git ``` </li>
-    <li> ``` sudo apt install php-cli php-mbstring ```</li>
+    <li> ` sudo apt install php-mysql `</li>
+    <li> ` sudo apt install curl `</li>
+    <li> ` sudo apt install xml-php`</li>
+    <li> ` sudo apt install git ` </li>
+    <li> ` sudo apt install php-cli php-mbstring `</li>
 </ol>
 next you need to  create a new user in mysql 
     `CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'user_password';`
