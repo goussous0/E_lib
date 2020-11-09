@@ -46,7 +46,7 @@ Grant access to database:
     
     
 
-edit your .env username , password , database to match the two sql line above
+<h1> edit your .env (username , password , database_name) to match the two sql line above </h1>
 
 
 and you can run the server by typing :
